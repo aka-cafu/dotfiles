@@ -1,14 +1,17 @@
 arandr
 archlinux-wallpaper
 dmenu
+feh
 i3-gaps
 i3lock
+imagemagick
 lxappearance 
 materia-gtk-theme
 nerd-fonts-ubuntu-mono
 otf-font-awesome
 papirus-icon-theme
 picom
+polybar
 powerline-fonts
 rofi
 siji-git 

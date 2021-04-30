@@ -14,9 +14,6 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # compositor
 exec_always picom -f --config ~/.config/picom/picom.conf
 
-# ms teams
-exec --no-startup-id /usr/bin/teams
-
 # flameshot 
 exec --no-startup-id /usr/bin/flameshot
  

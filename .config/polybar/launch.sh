@@ -9,7 +9,7 @@ if type "xrandr"; then
     MONITOR=$m polybar $BAR 2>&1 | tee -a /tmp/polybar1.log & disown
   done
 else
-  polybar --reload example &
+  polybar --reload $BAR &
 fi
 
 echo "Bars launched..."
