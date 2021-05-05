@@ -144,7 +144,7 @@ set number
 let no_buffers_menu=1
 colorscheme codedark
 
-
+set mouse=r
 set mousemodel=popup
 set t_Co=256
 set guioptions=egmrti
