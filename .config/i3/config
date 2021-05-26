@@ -23,6 +23,9 @@ exec --no-startup-id setxkbmap -layout br
 # set wallpaper
 exec --no-startup-id /usr/bin/sh ~/.fehbg
 
+# slack
+exec --no-startup-id slack
+
 # set $mod for Return
 set $mod Mod4
 
@@ -303,6 +306,7 @@ assign [class="Google-chrome"] $ws2
 assign [class="code"] $ws3
 assign [class="Terminator"] $ws4
 assign [class="firefox"] $ws5
+assign [class="Slack"] $ws6
 assign [class="TelegramDesktop"] $ws7
 for_window [class="Spotify"] move to workspace $ws9
 
